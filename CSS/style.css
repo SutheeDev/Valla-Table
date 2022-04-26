@@ -231,6 +231,7 @@ header {
 .slide {
     width: 100vw;
     height: 90vh;
+    position: relative;
 }
 .slide-holder {
     width: 10000vw;
@@ -255,4 +256,30 @@ header {
 }
 .slide4 {
     background-image: url(/ASSETS/IMAGES/sally_4.jpg);
+}
+/* next and prev button */
+.nextBtn,
+.prevBtn {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.5s ease;
+} 
+.nextBtn svg,
+.prevBtn svg {
+    width: 15px;
+    height: fit-content;
+}
+.nextBtn {
+    right: 3vw;
+}
+.prevBtn {
+    left: 3vw;
+}
+.nextBtn:hover {
+    color: var(--yellow);
+}
+.prevBtn:hover {
+    color: var(--yellow);
 }
