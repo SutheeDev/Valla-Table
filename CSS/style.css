@@ -22,10 +22,9 @@ a {
 /* ============ */
 :root {
     --black: #2e3030;
-    --green: #2D4620;
-    --orange: #FF7847;
     --yellow: #F0c664;
     --white: #fff;
+    --blue: rgb(86, 86, 255);
     --dm: 'DM Sans', sans-serif;
     --cormorant: 'Cormorant Garamond', serif;
 }
@@ -134,9 +133,14 @@ header {
 /* ============ */
 /* nav-header */
 /* ============ */
+.nav-header.open {
+    height: 90vh;
+}
 .nav-header {
-    min-height: 100vh;
+    height: 0;
     text-align: center;
+    overflow: hidden;
+    transition: all 0.5s ease;
 }
 .nav-header a {
     display: block;
@@ -153,9 +157,20 @@ header {
 }
 .nav-social a {
     padding: 20px 9px;
-    margin-top: 30px;
+    margin-top: 40px;
     transition: all 0.5s ease;
 }
 .nav-social a:hover svg {
     color: var(--yellow);
+}
+.nav-header p {
+    padding: 20px;
+}
+.nav-header .createdby {
+    font-size: 12px;
+    padding-top: 5px;
+    text-transform: capitalize;
+}
+.nav-header .createdby:hover {
+    color: var(--blue);
 }
