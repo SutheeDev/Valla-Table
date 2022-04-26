@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+img, iframe {
+    width: 100%;
+    vertical-align: bottom;
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* ============ */
+/* FONTS */
+/* ============ */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+/* ============ */
+/* GLOBAL SCOPE */
+/* ============ */
+:root {
+    --black: #0D0709;
+    --green: #2D4620;
+    --orange: #FF7847;
+    --yellow: #FFEE33;
+    --cornsilk: #fbf9ea;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: var(--cornsilk);
+}
+h1 {
+    font-family: 'Nanum Myeongjo', serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36px;
+}
+a {
+    color: var(--cornsilk);
+}
+
+/* ============ */
+/* Header */
+/* ============ */
+header {
+    background-color: var(--green);
+    box-shadow: 0 0 3px 2px #0d07093c;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.menu-btn {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.menu-btn:hover .burger-menu,
+.menu-btn:hover .burger-menu::before,
+.menu-btn:hover .burger-menu::after {
+    background-color: var(--yellow);
+}
+.menu-btn:hover {
+    animation: menuHover 0.5s ease;
+}
+@keyframes menuHover {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+/* Burger Menu */
+.burger-menu {
+    width: 25px;
+    height: 3px;
+    background-color: var(--cornsilk);
+    border-radius: 1px;
+    position: absolute;
+    transition: all 0.5s ease;
+}
+.burger-menu::before,
+.burger-menu::after {
+    content: '';
+    width: 25px;
+    height: 3px;
+    background-color: var(--cornsilk);
+    border-radius: 1px;
+    position: absolute;
+    transition: all 0.5s ease;
+}
+.burger-menu::before {
+    transform: translateY(-8px);
+}
+.burger-menu::after {
+    transform: translateY(8px);
+}
+.menu-btn.openMenu .burger-menu {
+    background-color: transparent;
+}
+.menu-btn.openMenu .burger-menu::before {
+    transform: rotate(45deg);
+}
+.menu-btn.openMenu .burger-menu::after {
+    transform: rotate(-45deg);
+}
+
+
