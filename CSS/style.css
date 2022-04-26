@@ -49,7 +49,11 @@ a {
     text-transform: uppercase;
     letter-spacing: 3.1px;
 }
-
+@media (max-width: 780px) {
+    h1 {
+        font-size: 44px;
+    }
+}
 /* ============ */
 /* Header */
 /* ============ */
@@ -130,8 +134,28 @@ header {
 /* ============ */
 /* nav-header */
 /* ============ */
+.nav-header {
+    min-height: 100vh;
+    text-align: center;
+}
 .nav-header a {
     display: block;
     padding: 20px;
-    text-align: center;
+    transition: all 0.5s ease;
+}
+.nav-header a:hover {
+    color: var(--yellow);
+}
+.nav-social {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+.nav-social a {
+    padding: 20px 9px;
+    margin-top: 30px;
+    transition: all 0.5s ease;
+}
+.nav-social a:hover svg {
+    color: var(--yellow);
 }
