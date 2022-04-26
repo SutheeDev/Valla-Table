@@ -4,7 +4,6 @@
     border: 0;
     box-sizing: border-box;
     font: inherit;
-    font-size: 100%;
     vertical-align: baseline;
 }
 img, iframe {
@@ -17,43 +16,45 @@ ul, li {
 a {
     text-decoration: none;
 }
-/* ============ */
-/* FONTS */
-/* ============ */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 
 /* ============ */
 /* GLOBAL SCOPE */
 /* ============ */
 :root {
-    --black: #0D0709;
+    --black: #2e3030;
     --green: #2D4620;
     --orange: #FF7847;
-    --yellow: #FFEE33;
-    --cornsilk: #fbf9ea;
+    --yellow: #F0c664;
+    --white: #fff;
+    --dm: 'DM Sans', sans-serif;
+    --cormorant: 'Cormorant Garamond', serif;
 }
 body{
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 100;
-    font-size: 16px;
-    color: var(--cornsilk);
+    font-family: var(--dm);
+    font-size: 14px;
+    color: var(--white);
+    letter-spacing: 3.1px;
 }
 h1 {
-    font-family: 'Nanum Myeongjo', serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 36px;
+    font-family: var(--cormorant);
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 50px;
+    color: var(--yellow);
 }
 a {
-    color: var(--cornsilk);
+    font-family: var(--dm);
+    color: var(--white);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3.1px;
 }
 
 /* ============ */
 /* Header */
 /* ============ */
 header {
-    background-color: var(--green);
+    background-color: var(--black);
     box-shadow: 0 0 3px 2px #0d07093c;
 }
 .main-header {
@@ -95,7 +96,7 @@ header {
 .burger-menu {
     width: 25px;
     height: 3px;
-    background-color: var(--cornsilk);
+    background-color: var(--white);
     border-radius: 1px;
     position: absolute;
     transition: all 0.5s ease;
@@ -105,7 +106,7 @@ header {
     content: '';
     width: 25px;
     height: 3px;
-    background-color: var(--cornsilk);
+    background-color: var(--white);
     border-radius: 1px;
     position: absolute;
     transition: all 0.5s ease;
@@ -126,4 +127,11 @@ header {
     transform: rotate(-45deg);
 }
 
-
+/* ============ */
+/* nav-header */
+/* ============ */
+.nav-header a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
