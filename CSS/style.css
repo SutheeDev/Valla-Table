@@ -54,8 +54,8 @@ h2 {
 h3 {
     font-family: var(--cormorant);
     text-transform: capitalize;
-    font-weight: 500;
-    font-size: 34px;
+    font-weight: 300;
+    font-size: 32px;
 }
 p {
     font-size: 16px;
@@ -316,12 +316,15 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 400px;
+    /* height: 400px; */
+    padding: 150px 0 150px 0;
 }
 .welcome p {
     max-width: 790px;
-    margin-top: 20px;
     padding: 0 20px;
+}
+.welcome h2 {
+    margin-bottom: 20px;
 }
 /* ============ */
 /* Hours Section */
@@ -331,4 +334,37 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding: 150px 0 150px 0;
+}
+.hours h2,
+.hours h3,
+.hours p {
+    color: var(--yellow);
+}
+.hours p {
+    color: var(--white);
+}
+.bar {
+    width: 70px;
+    height: 3px;
+    background-color: var(--yellow);
+    margin-bottom: 20px;
+}
+.hours h2 {
+    margin-bottom: 40px;
+}
+.hours h3 {
+    margin-bottom: 20px;
+}
+.hours p {
+    margin-bottom: 10px;
+}
+.hours .hours-address {
+    color: var(--white);
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+.hours-lunch {
+    margin-bottom: 40px;
 }
