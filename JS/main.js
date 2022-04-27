@@ -1,3 +1,4 @@
+// Menu Button
 const menuBtn = document.querySelector('.menu-btn');
 const navHeader = document.querySelector('.nav-header');
 let menuOpen = false;
@@ -13,6 +14,7 @@ menuBtn.addEventListener('click', () => {
     }
 });
 
+// Slide Images
 const nextBtn = document.getElementById('nextBtn');
 const prevBtn = document.getElementById('prevBtn');
 const holder = document.querySelector('.slide-holder');
@@ -59,3 +61,14 @@ holder.addEventListener('transitionend', () => {
     }
 });
 
+// Email SignUp Modal
+const signupBtn = document.getElementById('signupBtn');
+const closeSignUpBtn = document.getElementById('closeSignUpBtn');
+const modalContainer = document.querySelector('.modal-container');
+
+signupBtn.addEventListener('click', () => {
+    modalContainer.classList.add('open-modal');
+});
+closeSignUpBtn.addEventListener('click', () => {
+    modalContainer.classList.remove('open-modal');
+});
