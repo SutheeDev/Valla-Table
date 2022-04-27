@@ -32,7 +32,7 @@ body{
     font-family: var(--dm);
     font-size: 14px;
     color: var(--white);
-    letter-spacing: 3.1px;
+    /* letter-spacing: 3.1px; */
 }
 .container {
     max-width: 1100px;
@@ -44,6 +44,16 @@ h1 {
     font-weight: 300;
     font-size: 50px;
     color: var(--yellow);
+}
+h2 {
+    font-family: var(--cormorant);
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 40px;
+}
+p {
+    font-size: 16px;
+    letter-spacing: 2.5px;
 }
 a {
     font-family: var(--dm);
@@ -285,4 +295,24 @@ header {
 }
 .prevBtn:hover {
     color: var(--yellow);
+}
+/* ============ */
+/* Welcome Section */
+/* ============ */
+.welcome h2,
+.welcome p {
+    color: var(--black);
+}
+.welcome {
+    background-color: var(--yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+}
+.welcome p {
+    max-width: 750px;
+    margin-top: 20px;
 }
