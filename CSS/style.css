@@ -418,3 +418,43 @@ header {
 .hours-lunch {
     margin-bottom: 40px;
 }
+/* ============ */
+/* Footer Section */
+/* ============ */
+footer {
+    padding: 20px;
+    text-align: center;
+}
+.footer-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+footer .createdby {
+    font-size: 10px;
+    color: var(--yellow);
+}
+.footer-social svg {
+    transition: all 0.3s ease;
+
+}
+.footer-social a {
+    margin-right: 10px;
+}
+.btn {
+    padding: 5px 12px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    color: var(--white);
+    background-color: var(--yellow);
+    border: solid 1px var(--yellow);
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    background-color: var(--black);
+    color: var(--yellow);
+}
+.footer-social a:hover svg {
+    color: var(--yellow);
+}
