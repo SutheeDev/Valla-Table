@@ -385,19 +385,20 @@ header {
     align-items: center;
     text-align: center;
     padding: 150px 0 150px 0;
+    background-color: var(--yellow);
 }
 .hours h2,
 .hours h3,
 .hours p {
-    color: var(--yellow);
+    color: var(--black);
 }
 .hours p {
-    color: var(--white);
+    color: var(--black);
 }
 .bar {
     width: 70px;
     height: 3px;
-    background-color: var(--yellow);
+    background-color: var(--black);
     margin-bottom: 20px;
 }
 .hours h2 {
