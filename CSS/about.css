@@ -33,3 +33,26 @@
 /* ============ */
 /* Images Section */
 /* ============ */
+.about-pg .images {
+    background-color: var(--yellow);
+}
+.image7 {
+    background-image: url(/ASSETS/IMAGES/sally_1.jpg);
+    grid-column: 2/6;
+    grid-row: 1/8;
+}
+.image8 {
+    background-image: url(/ASSETS/IMAGES/sally_1.jpg);
+    grid-column: 8/12;
+    grid-row: 2/6;
+}
+.image9 {
+    background-image: url(/ASSETS/IMAGES/sally_1.jpg);
+    grid-column: 9/13;
+    grid-row: 8/12;
+}
+.image10 {
+    background-image: url(/ASSETS/IMAGES/sally_1.jpg);
+    grid-column: 1/8;
+    grid-row: 10/16;
+}
