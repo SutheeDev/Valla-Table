@@ -108,6 +108,9 @@ header {
     align-items: center;
     padding: 20px;
 }
+.main-header a {
+    letter-spacing: normal;
+}
 .menu-btn {
     width: 35px;
     height: 35px;
