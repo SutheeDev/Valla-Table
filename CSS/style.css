@@ -363,11 +363,11 @@ header {
 /* ============ */
 /* Welcome Section */
 /* ============ */
-.welcome h2,
-.welcome p {
+.info h2,
+.info p {
     color: var(--black);
 }
-.welcome {
+.info {
     background-color: var(--yellow);
     display: flex;
     flex-direction: column;
@@ -376,15 +376,15 @@ header {
     text-align: center;
     padding: 150px 0 150px 0;
 }
-.welcome p {
+.info p {
     max-width: 790px;
     padding: 0 20px;
 }
-.welcome h2 {
+.info h2 {
     margin-bottom: 20px;
 }
 @media (max-width: 780px) {
-    .welcome {
+    .info {
         padding: 70px 0;
     }
 }
