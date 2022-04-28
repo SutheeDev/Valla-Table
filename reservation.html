@@ -11,10 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="/CSS/hours.css">
-    <title>Hours & Location</title>
+    <link rel="stylesheet" href="/CSS/about.css">
+    <link rel="stylesheet" href="/CSS/reservation.css">
+    <title>About</title>
 </head>
-<body class="hours-pg">
+<body class="reservation-pg">
     <header>
         <div class="header container">
             <div class="main-header">
@@ -31,7 +32,7 @@
                         <a href="menus.html">Menus</a>
                     </li>
                     <li>
-                        <a href="reservation.html">Reservation</a>
+                        <a href="reservation.html" class="selected" >Reservation</a>
                     </li>
                     <li>
                         <a href="about.html">About</a>
@@ -43,7 +44,7 @@
                         <a href="order.html">Order Online</a>
                     </li>
                     <li>
-                        <a href="hours.html" class="selected" >Hours & Location</a>
+                        <a href="hours.html">Hours & Location</a>
                     </li>
                     <div class="nav-social">
                         <a href="https://www.facebook.com/vallatablenyc/">
@@ -99,45 +100,17 @@
         </div>
     </section>
 
-    <section class="hours">
+    <section class="info about">
         <h2>
-            Hours & Location
+            Reservation
         </h2>
-        <div class="bar"></div>
-        <p class="hours-address">
-            641 10th Ave New York, NY 10036
+        <p>
+            Step out of the ordinary and celebrate your special day at our restaurant!
         </p>
-        <div class="hours-lunch">
-            <h3>
-                Lunch
-            </h3>
-            <p>
-                Monday - Friday: <br>
-                11:30 am - 4:00 pm
-            </p>
-            <p>
-                Saturday - Sunday: <br>
-                12:00 pm - 4:00 pm
-            </p>
-        </div>
-        <div class="hours-dinner">
-            <h3>
-                Dinner
-            </h3>
-            <p>
-                Monday - Sunday <br>
-                5:00 pm - 10:00 pm
-            </p>
-        </div>
-        <p class="ensure">
-            To ensure a pleasant experience for our guests, a last call reminder is given approximately fifteen minutes prior to closing.
+        <p>
+            We invite you to plan your next visit with us! No matter the group size or occasion, Valla Table is the perfect place to create memories which will last a lifetime. 
         </p>
-    </section>
-
-    <section class="maps">
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.007160487392!2d-73.99627204871663!3d40.7618672423982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25920dfd432a5%3A0x81ce15060b375368!2sValla%20Table!5e0!3m2!1sen!2sus!4v1651104534714!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
-        </div>
+        <button class="btn reserveBtn" id="reserveBtn">Find a table</button>
     </section>
 
     <footer class="container">

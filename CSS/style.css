@@ -68,6 +68,9 @@ a {
     text-transform: uppercase;
     letter-spacing: 3.1px;
 }
+.selected {
+    color: var(--yellow);
+}
 @media (max-width: 1100px) {
     .container {
         width: 95vw;
