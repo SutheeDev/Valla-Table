@@ -539,11 +539,11 @@ footer .createdby {
 }
 .btn {
     padding: 5px 12px;
-    border-radius: 2px;
+    border-radius: 3px;
     text-transform: uppercase;
     color: var(--white);
     background-color: var(--yellow);
-    border: solid 1px var(--yellow);
+    border: solid 2px var(--yellow);
     transition: all 0.3s ease;
     cursor: pointer;
 }
