@@ -95,7 +95,12 @@ a {
 /* ============ */
 header {
     background-color: var(--black);
-    box-shadow: 0 0 3px 2px #0d07093c;
+    box-shadow: 0 0 3px 2px #0d070972;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
 }
 .main-header {
     display: flex;
@@ -177,8 +182,11 @@ header {
     transition: all 0.3s ease;
 }
 .open {
-    height: 90vh;
+    height: 100vh;
 }
+/* .nav-header .open {
+    overflow: hidden;
+} */
 .nav-header a {
     display: block;
     padding: 20px;
@@ -261,6 +269,7 @@ header {
     height: 90vh;
     position: relative;
     overflow: hidden;
+    margin-top: 88px;
 }
 .slide-holder {
     width: 10000vw;

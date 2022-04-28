@@ -72,3 +72,11 @@ signupBtn.addEventListener('click', () => {
 closeSignUpBtn.addEventListener('click', () => {
     modalContainer.classList.remove('open-modal');
 });
+
+// inView
+// inView('.header')
+//     .on('enter', doSomething)
+//     .on('exit', el => {
+//         el.style.opacity = 0.5;
+//     });
+// inView.threshold(0.5);
