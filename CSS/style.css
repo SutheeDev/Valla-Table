@@ -57,6 +57,12 @@ h3 {
     font-weight: 300;
     font-size: 32px;
 }
+h4 {
+    font-family: var(--dm);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 17px;
+}
 p {
     font-size: 16px;
     letter-spacing: 2.5px;
@@ -88,6 +94,9 @@ a {
     }
     h3 {
         font-size: 28px;
+    }
+    h4 {
+        font-size: 15px;
     }
     p {
         font-size: 14px;
