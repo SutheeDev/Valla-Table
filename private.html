@@ -114,36 +114,44 @@
                     Contact us about your private events
                 </h2>
                 <div class="bar"></div>
-                <div class="close-signup" id="closeSignUpBtn">
-                    <div class="close-signupBtn"></div>
+                <div class="close-event" id="closeEventBtn">
+                    <div class="close-eventBtn"></div>
                 </div>
-                <form action="" class="modal-form">
-                    <input type="text" name="fnmae" id="fname" placeholder="First Name" required>
-                    <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                <form action="" class="event-form">
+                    <div class="form-half">
+                        <input type="text" name="fnmae" id="fname" placeholder="First Name" required>
+                        <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                    </div>
                     <input type="email" name="email" id="email" placeholder="Email" required>
-                    <input type="number" name="number" id="number" placeholder="Phone Number" required>
-                    <input type="text" name="company" id="company" placeholder="company">
-                    <input type="date" name="date" id="date" placeholder="Event Date" required>
-                    <input type="time" name="stime" id="stime" placeholder="Start Time" required>
-                    <input type="time" name="etime" id="etime" placeholder="End time" required>
-                    <select name="eventtype" id="eventtype" placeholder="Type of Event">
-                        <option value="alumni">alumni</option>
-                        <option value="bachelor">bachelor / bachelorette</option>
-                        <option value="birthday">birthday</option>
-                        <option value="corporate lunch">corporate lunch</option>
-                        <option value="engagement">engagement</option>
-                        <option value="fundraiser">fundraiser</option>
-                        <option value="graduation">graduation</option>
-                        <option value="holiday">holiday</option>
-                        <option value="meeting">meeting</option>
-                        <option value="film shooting">film shooting</option>
-                        <option value="wedding">wedding</option>
-                        <option value="other">other</option>
-                    </select>
-                    <input type="text" name="people" id="people" placeholder="Number of People" required>
+                    <div class="form-half">
+                        <input type="text" name="number" id="number" placeholder="Phone Number" required>
+                        <input type="text" name="company" id="company" placeholder="Company">
+                    </div>
+                    <input type="date" value="2022-05-02" name="date" id="date" placeholder="Event Date" class="date-input" required>
+                    <div class="form-half">
+                        <input type="time" name="stime" id="stime" placeholder="Start Time" required>
+                        <input type="time" name="etime" id="etime" placeholder="End time" required>
+                    </div>
+                    <div class="form-half">
+                        <select name="eventtype" id="eventtype" placeholder="Type of Event">
+                            <option value="alumni">alumni</option>
+                            <option value="bachelor">bachelor / bachelorette</option>
+                            <option value="birthday">birthday</option>
+                            <option value="corporate lunch">corporate lunch</option>
+                            <option value="engagement">engagement</option>
+                            <option value="fundraiser">fundraiser</option>
+                            <option value="graduation">graduation</option>
+                            <option value="holiday">holiday</option>
+                            <option value="meeting">meeting</option>
+                            <option value="film shooting">film shooting</option>
+                            <option value="wedding">wedding</option>
+                            <option value="other">other</option>
+                        </select>
+                        <input type="number" name="people" id="people" placeholder="Number of People" required>
+                    </div>
                     <textarea name="additionalinfo" id="additionalinfo" cols="30" rows="10" placeholder="Additional Information"></textarea>
                 </form>
-                <button class="btn modal-btn" id="submitBtn">Submit</button>
+                <button class="btn event-btn" id="submitBtn">Submit</button>
             </div>
         </div>
     </section>
