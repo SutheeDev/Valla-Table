@@ -37,7 +37,7 @@
                         <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="private.html">Private Events</a>
+                        <a href="private.html" class="selected">Private Events</a>
                     </li>
                     <li>
                         <a href="order.html">Order Online</a>
@@ -129,11 +129,12 @@
                     </div>
                     <input type="date" value="2022-05-02" name="date" id="date" placeholder="Event Date" class="date-input" required>
                     <div class="form-half">
-                        <input type="time" name="stime" id="stime" placeholder="Start Time" required>
+                        <input type="time" name="stime" id="stime" min="12:00" max="21:00" placeholder="Start Time" required>
                         <input type="time" name="etime" id="etime" placeholder="End time" required>
                     </div>
                     <div class="form-half">
                         <select name="eventtype" id="eventtype" placeholder="Type of Event">
+                            <option value="">Type of Event</option>
                             <option value="alumni">alumni</option>
                             <option value="bachelor">bachelor / bachelorette</option>
                             <option value="birthday">birthday</option>
@@ -200,5 +201,6 @@
 
     <script src="https://unpkg.com/in-view@0.6.1/dist/in-view.min.js"></script>
     <script src="/JS/main.js"></script>
+    <script src="/JS/private.js"></script>
 </body>
 </html>
