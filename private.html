@@ -11,10 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="/CSS/reservation.css">
+    <link rel="stylesheet" href="/CSS/private.css">
     <title>About</title>
 </head>
-<body class="reservation-pg">
+<body class="private-pg">
     <header>
         <div class="header container">
             <div class="main-header">
@@ -30,9 +30,9 @@
                     <li>
                         <a href="menus.html">Menus</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="reservation.html" class="selected" >Reservation</a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="about.html">About</a>
                     </li>
@@ -99,22 +99,19 @@
         </div>
     </section>
 
-    <section class="info reservation">
+    <section class="info private">
         <h2>
-            Reservation
+            Private Events
         </h2>
         <p>
-            Step out of the ordinary and celebrate your special day at our restaurant!
+            With a variety of unique event options, Valla Table is available for large party bookings and full restaurant buyouts. Our venue can accommodate groups ranging in size from 9 to 150 guests. Please contact us below for all of your event inquiries. 
         </p>
-        <p>
-            We invite you to plan your next visit with us. No matter the group size or occasion, Valla Table is the perfect place to create memories which will last a lifetime. 
-        </p>
-        <button class="btn reserveBtn" id="reserveBtn">Find a table</button>
+        <button class="btn inquireBtn" id="inquireBtn">Inquire Now</button>
 
-        <div class="modal-container">
-            <div class="modal-overlay">
+        <div class="event-modal-container">
+            <div class="event-modal-overlay">
                 <h2>
-                    Email Signup
+                    Contact us about your private events
                 </h2>
                 <div class="bar"></div>
                 <div class="close-signup" id="closeSignUpBtn">
@@ -124,6 +121,27 @@
                     <input type="text" name="fnmae" id="fname" placeholder="First Name" required>
                     <input type="text" name="lname" id="lname" placeholder="Last Name" required>
                     <input type="email" name="email" id="email" placeholder="Email" required>
+                    <input type="number" name="number" id="number" placeholder="Phone Number" required>
+                    <input type="text" name="company" id="company" placeholder="company">
+                    <input type="date" name="date" id="date" placeholder="Event Date" required>
+                    <input type="time" name="stime" id="stime" placeholder="Start Time" required>
+                    <input type="time" name="etime" id="etime" placeholder="End time" required>
+                    <select name="eventtype" id="eventtype" placeholder="Type of Event">
+                        <option value="alumni">alumni</option>
+                        <option value="bachelor">bachelor / bachelorette</option>
+                        <option value="birthday">birthday</option>
+                        <option value="corporate lunch">corporate lunch</option>
+                        <option value="engagement">engagement</option>
+                        <option value="fundraiser">fundraiser</option>
+                        <option value="graduation">graduation</option>
+                        <option value="holiday">holiday</option>
+                        <option value="meeting">meeting</option>
+                        <option value="film shooting">film shooting</option>
+                        <option value="wedding">wedding</option>
+                        <option value="other">other</option>
+                    </select>
+                    <input type="text" name="people" id="people" placeholder="Number of People" required>
+                    <textarea name="additionalinfo" id="additionalinfo" cols="30" rows="10" placeholder="Additional Information"></textarea>
                 </form>
                 <button class="btn modal-btn" id="submitBtn">Submit</button>
             </div>
