@@ -20,6 +20,7 @@
     overflow: hidden;
     border-radius: 7px;
     display: flex;
+    position: relative;
     transition: all 0.3s ease;
 }
 .food-img {
@@ -53,6 +54,41 @@
   17px 18px 51px rgba(0, 0, 0, 0.11)
 ;
 }
+/* ============ */
+/* Cart Button */
+/* ============ */
+/* .cart-btn svg {
+    width: 30px;
+    height: fit-content;
+/* } */
+.cart-btn {
+    background-color: var(--black);
+    color: var(--yellow);
+    position: absolute;
+    bottom: 12px;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 15px;
+    border-radius: 4px 0 0 4px;
+    box-shadow: 4px 2px 0px rgba(0, 0, 0, 0.09);
+    transform: translateX(100%);
+    transition: all 0.3s ease;
+} 
+.cart-btn svg {
+    width: 25px;
+    height: fit-content;
+    color: var(--yellow);
+    margin-right: 20px;
+    transform: translateY(1px);
+}
+.menu-item:hover .cart-btn {
+    transform: translateX(0);
+}
+
+
+
 /* ============ */
 /* Cart */
 /* ============ */
