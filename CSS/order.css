@@ -1,3 +1,6 @@
+/* ============ */
+/* Menus */
+/* ============ */
 .order-pg .menus {
     margin-top: 88px;
 }
@@ -49,4 +52,98 @@
   6.2px 6.6px 18.6px rgba(0, 0, 0, 0.076),
   17px 18px 51px rgba(0, 0, 0, 0.11)
 ;
+}
+/* ============ */
+/* Cart */
+/* ============ */
+.cart-overlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.292);
+    z-index: 10;
+    /* visibility: hidden; */
+}
+.cart {
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--white);
+    /* transform: translateX(100%); */
+    z-index: 11;
+}
+@media(min-width: 780px) {
+    .cart {
+        width: 30vw;
+        max-width: 450px;
+    }
+}
+.overlay-on {
+    visibility: visible;
+}
+.show-cart {
+    transform: translateX(0);
+}
+.cart-overlay h3,
+.cart-content h4,
+.cart-content p,
+.cart-content span {
+    color: var(--black);
+}
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* close-cart btn */
+.close-cart {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.close-cart:hover .close-cartBtn {
+    background-color: var(--yellow);
+}
+.close-cart:hover .close-cartBtn::after {
+    background-color: var(--yellow);
+}
+.close-cartBtn {
+    width: 25px;
+    height: 3px;
+    background-color: var(--black);
+    border-radius: 1px;
+    position: absolute;
+    transform: rotate(45deg);
+    transition: all 0.3s ease;
+}
+.close-cartBtn::after {
+    content: '';
+    width: 25px;
+    height: 3px;
+    background-color: var(--black);
+    border-radius: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-90deg);
+    transition: all 0.3s ease;
+}
+/* Style cart-content */
+.cart-item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+}
+.cart-content img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
 }
