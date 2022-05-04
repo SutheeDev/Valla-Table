@@ -36,24 +36,24 @@ function displayMenuHead(menuItems){
     menuHeader.innerHTML = menuHead;
 }
 
-
 function displayMenuItems(menuItems){
-    
-
     let menuInfo = menuItems.map(item => {
-        // return `<article class="menu-item">
-        //             <div class="item-header">
-        //                 <h4 class="menu-title">
-        //                     ${item.title}
-        //                 </h4>
-        //                 <p class="price">
-        //                     ${item.price}
-        //                 </p>
-        //             </div>
-        //             <p class="menu-info">
-        //                 ${item.info}
-        //             </p>
-        //         </article>`;
+        return `<article class="menu-item">
+                    <img class="food-img" src=${item.img} alt="">
+                    <div class="item-cont">
+                        <div class="item-header">
+                            <h4 class="menu-title">
+                                ${item.title}
+                            </h4>
+                            <p class="price">
+                                $${item.price}
+                            </p>
+                        </div>
+                        <p class="menu-info">
+                            ${item.info}
+                        </p>
+                    </div>
+                </article>`;
     });
     menuInfo = menuInfo.join('');
     wholeMenu.innerHTML = menuInfo;
