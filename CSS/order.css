@@ -57,10 +57,6 @@
 /* ============ */
 /* Cart Button */
 /* ============ */
-/* .cart-btn svg {
-    width: 30px;
-    height: fit-content;
-/* } */
 .cart-btn {
     background-color: var(--black);
     color: var(--yellow);
@@ -293,7 +289,6 @@
     .order-pg .nav-header a {
         font-size: 14px;
         letter-spacing: 3.1px;
-        /* display: block; */
         padding: 20px;
     }
     .order-pg .nav-header p {
