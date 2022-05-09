@@ -95,6 +95,7 @@
     background-color: rgba(0, 0, 0, 0.292);
     z-index: 10;
     visibility: hidden;
+    transition: all 0.3s ease;
 }
 .cart {
     padding: 20px;
@@ -102,7 +103,8 @@
     top: 0;
     right: 0;
     width: 100vw;
-    min-height: 100vh;
+    height: 100%;
+    overflow: scroll;
     background-color: var(--white);
     transform: translateX(100%);
     z-index: 11;
