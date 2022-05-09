@@ -174,9 +174,9 @@
 .cart-item {
     display: grid;
     grid-template-columns: auto 1fr auto;
-    grid-column-gap: 20px;
+    grid-column-gap: 15px;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     background-color: var(--yellow);
     border-radius: 7px;
     overflow: hidden;
@@ -199,11 +199,17 @@
     object-fit: cover;
 }
 .item-info {
-    height: 76px;
+    max-height: 100px;
 }
 .item-info h4,
 .item-info p {
     margin-bottom: 5px;
+}
+.item-info h4 {
+    font-size: 15px;
+}
+.item-info p {
+    font-size: 13px;
 }
 .cart-footer {
     text-align: center;
