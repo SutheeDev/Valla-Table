@@ -71,6 +71,8 @@ const cartContent = document.querySelector('.cart-content');
 const productsDOM = document.querySelector('.menu-items');
 
 let cart = [];
+// buttons
+let buttonsDOM = [];
 
 // getting the products
 class Products {
@@ -131,10 +133,95 @@ class UI{
         });
         productsDOM.innerHTML = result;
     }
+    getCartButtons(){
+        const buttons = [...document.querySelectorAll('.cart-btn')];
+        buttonsDOM = buttons;
+        buttons.forEach(button => {
+            let id = button.dataset.id;
+            let inCart = cart.find(item => item.id === id);
+            if (inCart) {
+                button.innerText = 'In Cart';
+                button.disabled = true;
+            }
+            button.addEventListener('click', (event) => {
+                event.target.innerText = 'In Cart';
+                event.target.disabled = true;
+                // 1. get product (that you clicked) from products (in the local storage) base on the id
+                let cartItem = {...Storage.getProduct(id), amount:1};
+                // 2. add product to the cart
+                cart = [...cart, cartItem];
+                console.log(cartItem);
+                // 3. save the cart to the local storage
+                Storage.saveCart(cart);
+                // 4. set cart values
+                this.setCartValues(cart);
+                // 5. display cart item
+                this.addCartItem(cartItem);
+                // 6. show the cart
+                this.showCart();
+                });
+        });
+    }
+    setCartValues(cart){
+        let tempTotal = 0;
+        let itemsTotal = 0;
+        cart.map(item => {
+            tempTotal += item.price * item.amount;
+            itemsTotal += item.amount;
+        });
+        cartTotal.innerText = parseFloat(tempTotal.toFixed(2));
+        itemCount.innerText = itemsTotal;
+    }
+    addCartItem(item){
+        const div = document.createElement('div');
+        div.classList.add('cart-item');
+        div.innerHTML = `
+                    <img src=${item.img} alt="">
+                    <div class="item-info">
+                        <h4>${item.title}</h4>
+                        <p>$${item.price}</p>
+                        <span class="remove-item" data-id=${item.id} >remove</span>
+                    </div>
+                    <div class="amount-section">
+                        <i class="incrementBtn" data-id=${item.id}>
+                            <?xml version="1.0" encoding="UTF-8"?>
+                            <svg width="15px" height="15px" viewBox="0 0 316 560" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>Path</title>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <path d="M305.12,254.85 L60.33,10.06 C46.08,-3.354 24.283,-3.354 10.869,10.06 C-2.545,23.474 -2.545,45.271 10.869,59.521 L231.349,280.001 L10.869,500.481 C-2.545,513.895 -2.545,536.528 10.869,549.942 C24.283,563.356 46.08,563.356 60.33,549.942 L305.12,304.312 C318.534,290.898 318.534,269.101 305.12,254.851 L305.12,254.85 Z" id="Path" fill="currentColor" fill-rule="nonzero"></path>
+                                </g>
+                            </svg>
+                        </i>
+                        <p class="item-amount">${item.amount}</p>
+                        <i class="substractBtn" data-id=${item.id}>
+                            <?xml version="1.0" encoding="UTF-8"?>
+                            <svg width="15px" height="15px" viewBox="0 0 316 560" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>Path</title>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <path d="M305.12,254.85 L60.33,10.06 C46.08,-3.354 24.283,-3.354 10.869,10.06 C-2.545,23.474 -2.545,45.271 10.869,59.521 L231.349,280.001 L10.869,500.481 C-2.545,513.895 -2.545,536.528 10.869,549.942 C24.283,563.356 46.08,563.356 60.33,549.942 L305.12,304.312 C318.534,290.898 318.534,269.101 305.12,254.851 L305.12,254.85 Z" id="Path" fill="currentColor" fill-rule="nonzero"></path>
+                                </g>
+                            </svg>
+                        </i>
+                    </div> `;
+        cartContent.appendChild(div);
+    }
+    showCart(){
+        cartOverlay.classList.add('overlay-on');
+        cartDOM.classList.add('show-cart');
+    }
 }
 // local storage
 class Storage{
-
+    static saveProducts(menus){
+        localStorage.setItem('menus', JSON.stringify(menus));
+    }
+    static getProduct(id){
+        let products = JSON.parse(localStorage.getItem('menus'));
+        return products.find(product => product.id == id);
+    }
+    static saveCart(cart){
+        localStorage.setItem('cart', JSON.stringify(cart));
+    }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -142,5 +229,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const products = new Products();
 
     // get all products
-    products.getProducts().then(menus => ui.displayProducts(menus));
+    products.getProducts().then(menus => {ui.displayProducts(menus)
+    Storage.saveProducts(menus);
+    }).then(() => {
+        ui.getCartButtons();
+    });
 });

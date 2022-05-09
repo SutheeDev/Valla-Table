@@ -1,6 +1,6 @@
 const menu = [
     {
-        id: 1,
+        id: '1',
         title: 'Rak Bua Tod',
         category: 'appetizers',
         price: '9',
@@ -8,7 +8,7 @@ const menu = [
         img: '/ASSETS/IMAGES/sally_2.jpg',
     },
     {
-        id: 2,
+        id: '2',
         title: 'Sai Oua',
         category: 'appetizers',
         price: '11',
