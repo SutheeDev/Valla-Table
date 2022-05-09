@@ -106,7 +106,7 @@
     background-color: var(--white);
     transform: translateX(100%);
     z-index: 11;
-    transition: all 0.3s linear;
+    transition: all 0.3s ease;
 }
 @media(min-width: 780px) {
     .cart {
