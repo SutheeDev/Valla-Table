@@ -213,10 +213,7 @@
 }
 .cart-footer {
     text-align: center;
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translate(-50%);
+    margin-top: 30px;
 }
 .cart-footer h3 {
     margin-bottom: 10px;
