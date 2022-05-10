@@ -239,7 +239,26 @@ class UI{
             } else if (event.target.classList.contains('incrementBtn')){
                 let addAmount = event.target;
                 let id = addAmount.dataset.id;
-                console.log(addAmount);
+                let tempItem = cart.find(item => item.id == id);
+                tempItem.amount = tempItem.amount + 1;
+                Storage.saveCart(cart);
+                this.setCartValues(cart);
+                addAmount.nextElementSibling.innerText = tempItem.amount;
+            }
+            else if (event.target.classList.contains('substractBtn')){
+                let decreaseAmount = event.target;
+                let id = decreaseAmount.dataset.id;
+                let tempItem = cart.find(item => item.id == id);
+                tempItem.amount = tempItem.amount - 1;
+                if (tempItem.amount > 0) {
+                    Storage.saveCart(cart);
+                    this.setCartValues(cart);
+                    decreaseAmount.previousElementSibling.innerText = tempItem.amount;
+
+                } else {
+                    cartContent.removeChild(decreaseAmount.parentElement.parentElement);
+                    this.removeItem(id);
+                }
             }
         });
     }
