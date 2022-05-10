@@ -229,7 +229,19 @@ class UI{
         clearCartBtn.addEventListener('click', () => {
             this.clearCart();
         });
-        // cart dunctionality
+        // cart functionality
+        cartContent.addEventListener('click', event => {
+            if (event.target.classList.contains('remove-item')){
+                let removeItem = event.target;
+                let id = removeItem.dataset.id;
+                this.removeItem(id);
+                cartContent.removeChild(removeItem.parentElement.parentElement);
+            } else if (event.target.classList.contains('incrementBtn')){
+                let addAmount = event.target;
+                let id = addAmount.dataset.id;
+                console.log(addAmount);
+            }
+        });
     }
     clearCart(){
         let cartItems = cart.map(item => item.id);
@@ -240,7 +252,7 @@ class UI{
         this.hideCart();
     }
     removeItem(id){
-        cart = cart.filter(item => item.id !== id);
+        cart = cart.filter(item => item.id != id);
         this.setCartValues(cart);
         Storage.saveCart(cart);
         let button = this.getSinglebutton(id);
