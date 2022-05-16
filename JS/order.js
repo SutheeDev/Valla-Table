@@ -96,8 +96,9 @@ class Products {
         }
     };
 }
-// display products
+
 class UI{
+    // display products
     displayProducts(menus){
         let result = '';
         menus.forEach(menu => {
@@ -314,11 +315,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // setup App
     ui.setupAPP();
-    // get all products
-    products.getProducts().then(menus => {ui.displayProducts(menus)
-    Storage.saveProducts(menus);
-    }).then(() => {
+    // get all products    
+    products.getProducts()
+    .then(menus => {
+        ui.displayProducts(menus)
+        Storage.saveProducts(menus);
+    })
+    .then(() => {
         ui.getCartButtons();
         ui.cartLogic();
     });
+
 });
+
