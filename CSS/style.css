@@ -539,6 +539,10 @@ footer {
 footer .createdby {
     font-size: 10px;
     color: var(--yellow);
+    transition: all 0.3s ease;
+}
+footer .createdby:hover {
+    color: var(--blue);
 }
 .footer-social svg {
     transition: all 0.3s ease;
