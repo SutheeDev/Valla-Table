@@ -85,3 +85,18 @@
 .menu-item:last-child {
     margin-bottom: 0;
 }
+/* ------------ */
+/* Slide images */
+/* ------------ */
+.slide1 {
+    background-image: url(/ASSETS/IMAGES/SOUP/GingerSoup.jpg);
+}
+.slide2 {
+    background-image: url(/ASSETS/IMAGES/APP/MiangKham.jpg);
+}
+.slide3 {
+    background-image: url(/ASSETS/IMAGES/CHEF-SPECIAL/PadTalay.jpg);
+}
+.slide4 {
+    background-image: url(/ASSETS/IMAGES/NOODLE/KhaoSoiKai.jpg);
+}

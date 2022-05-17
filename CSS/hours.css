@@ -2,3 +2,18 @@
     margin-top: 50px;
     width: 55vw;
 }
+/* ------------ */
+/* Slide images */
+/* ------------ */
+.slide1 {
+    background-image: url(/ASSETS/IMAGES/APP/PakMorCashew.jpg);
+}
+.slide2 {
+    background-image: url(/ASSETS/IMAGES/CHEF-SPECIAL/DuckTamarind.jpg); 
+}
+.slide3 {
+    background-image: url(/ASSETS/IMAGES/SALAD/CrispyDuckSalad.jpg);
+}
+.slide4 {
+    background-image: url(/ASSETS/IMAGES/RICE/KhaoPadBacon.jpg);
+}
