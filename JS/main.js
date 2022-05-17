@@ -27,9 +27,36 @@ closeSignUpBtn.addEventListener('click', () => {
 });
 
 // inView
-// inView('.header')
-//     .on('enter', doSomething)
-//     .on('exit', el => {
-//         el.style.opacity = 0.5;
-//     });
-// inView.threshold(0.5);
+inView('.inView')
+    .on('enter', section => {
+        section.classList.add('in-viewport');
+    })
+    .on('exit', section => {
+        section.classList.remove('in-viewport');
+    });
+inView.threshold(0.2);
+
+const viewports = document.querySelectorAll('.inView');
+viewports.forEach((viewport, index) => {
+    const wDelay =  document.querySelectorAll('.w-delay');
+    wDelay.forEach((el, index) => {
+        el.style.transitionDelay = index * 200 + 'ms'
+    });
+
+    const imgDelay = document.querySelectorAll('.img-delay');
+    imgDelay.forEach((el, index) => {
+        el.style.transitionDelay = index * 200 + 'ms'
+    });
+    
+    const hDelay = document.querySelectorAll('.h-delay');
+    hDelay.forEach((el, index) => {
+        el.style.transitionDelay = index * 100 + 'ms'
+    })
+    
+    const mDelay = document.querySelectorAll('.m-delay');
+    mDelay.forEach((el, index) => {
+        el.style.transitionDelay = index * 300 + 'ms'
+    })
+
+    
+});

@@ -1,0 +1,40 @@
+@media (min-width: 780px) {
+    .info h2,
+    .info p,
+    .image1,
+    .image2,
+    .image3,
+    .image4,
+    .image5,
+    .image6,
+    .image7,
+    .image8,
+    .image9,
+    .image10,
+    .hours .h-delay,
+    .category-btns,
+    .menu-container,
+    .inquireBtn {
+        opacity: 0;
+        transition: all 0.4s ease;
+    }
+    
+    .in-viewport.info h2,
+    .in-viewport.info p,
+    .in-viewport .image1,
+    .in-viewport .image2,
+    .in-viewport .image3,
+    .in-viewport .image4,
+    .in-viewport .image5,
+    .in-viewport .image6,
+    .in-viewport .image7,
+    .in-viewport .image8,
+    .in-viewport .image9,
+    .in-viewport .image10,
+    .in-viewport.hours .h-delay,
+    .in-viewport .category-btns,
+    .in-viewport .menu-container,
+    .in-viewport .inquireBtn {
+        opacity: 1;
+    }
+}
