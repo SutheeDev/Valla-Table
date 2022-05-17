@@ -229,7 +229,7 @@ const menu = [
         category: 'chef special',
         price: '28',
         info: `Crab meat filled in freshly made to order streamed rice wrappers in nam yaa curry sauce, chili, oil, lotus roots chips. Served with jasmine rice`,
-        img: '/ASSETS/IMAGES/sally_2.jpg',
+        img: '/ASSETS/IMAGES/CHEF-SPECIAL/CrabDumplingCurry.jpg',
     },
     {
         id: 30,
@@ -237,7 +237,7 @@ const menu = [
         category: 'chef special',
         price: '26',
         info: `Stir fry mix seafood, smoked chili paste, curry power, egg, onion, chinese celery, bell pepper served with jasmine rice`,
-        img: '/ASSETS/IMAGES/sally_2.jpg',
+        img: '/ASSETS/IMAGES/CHEF-SPECIAL/PadTalay.jpg',
     },
     {
         id: 31,
@@ -245,7 +245,7 @@ const menu = [
         category: 'chef special',
         price: '24',
         info: `Crispy salmon bits, angel hair rice noodles, lime, ginger, red onions, cashew nuts with lettuce to wrap. Served with spicy chili lime sauce`,
-        img: '/ASSETS/IMAGES/sally_2.jpg',
+        img: '/ASSETS/IMAGES/CHEF-SPECIAL/MiangSalmon.jpg',
     },
     {
         id: 32,
@@ -253,7 +253,7 @@ const menu = [
         category: 'chef special',
         price: '29',
         info: `Fried king fish, fresh mango salad served with jasmine rice`,
-        img: '/ASSETS/IMAGES/sally_2.jpg',
+        img: '/ASSETS/IMAGES/CHEF-SPECIAL/PlaTodNamPla.jpg',
     },
     {
         id: 33,
@@ -261,7 +261,7 @@ const menu = [
         category: 'chef special',
         price: '25',
         info: `Seared duck breast topped with tamarind sauce accompanied by wonton noodles, cilantro and over baked crispy garlic and bok choy`,
-        img: '/ASSETS/IMAGES/sally_2.jpg',
+        img: '/ASSETS/IMAGES/CHEF-SPECIAL/DuckTamarind.jpg',
     },
     {
         id: 34,
@@ -269,7 +269,7 @@ const menu = [
         category: 'chef special',
         price: '40',
         info: `Crispy fried whole Branzino with garlic and pepper sauce. Served with jasmine rice`,
-        img: '/ASSETS/IMAGES/sally_2.jpg',
+        img: '/ASSETS/IMAGES/CHEF-SPECIAL/CrispyFryWholeBranzino.jpg',
     },
     {
         id: 35,
@@ -277,7 +277,7 @@ const menu = [
         category: 'rice',
         price: '16',
         info: `Vegan fried rice with shiitake mushroom, taro, carrot and peas`,
-        img: '/ASSETS/IMAGES/sally_2.jpg',
+        img: '/ASSETS/IMAGES/RICE/KhaoOp.jpg',
     },
     {
         id: 36,
@@ -285,7 +285,7 @@ const menu = [
         category: 'rice',
         price: '20',
         info: `Thai basil fried rice with hand cut bacon sriracha and coconut sugar glaze`,
-        img: '/ASSETS/IMAGES/sally_2.jpg',
+        img: '/ASSETS/IMAGES/RICE/KhaoPadBacon.jpg',
     },
     {
         id: 37,
@@ -293,7 +293,7 @@ const menu = [
         category: 'rice',
         price: '21',
         info: `Thai style fried rice with crab meat, egg, scallions and curry power. Served with house made chili sauce`,
-        img: '/ASSETS/IMAGES/sally_2.jpg',
+        img: '/ASSETS/IMAGES/RICE/CrabMeatFriedRice.jpg',
     },
     {
         id: 38,
@@ -301,7 +301,7 @@ const menu = [
         category: 'side order',
         price: '3',
         info: ``,
-        img: '/ASSETS/IMAGES/sally_2.jpg',
+        img: '/ASSETS/IMAGES/SIDES/JasmineRice.jpg',
     },
     {
         id: 39,
@@ -309,7 +309,7 @@ const menu = [
         category: 'side order',
         price: '4',
         info: ``,
-        img: '/ASSETS/IMAGES/sally_2.jpg',
+        img: '/ASSETS/IMAGES/SIDES/BrownRice.jpg',
     },
     {
         id: 40,
@@ -317,38 +317,30 @@ const menu = [
         category: 'side order',
         price: '4',
         info: ``,
-        img: '/ASSETS/IMAGES/sally_2.jpg',
+        img: '/ASSETS/IMAGES/SIDES/StickyRice.jpg',
     },
     {
         id: 41,
-        title: 'Roti Bread',
+        title: 'Fried Egg',
         category: 'side order',
         price: '4',
         info: ``,
-        img: '/ASSETS/IMAGES/sally_2.jpg',
+        img: '/ASSETS/IMAGES/SIDES/FriedEgg.jpg',
     },
     {
         id: 42,
-        title: 'Mango Sticky Rice',
-        category: 'dessert',
-        price: '13',
-        info: `Steamed coconut sticky rice served with sweet ripe Thai mango, topped with warm coconut milk and roasted sesame seeds`,
-        img: '/ASSETS/IMAGES/sally_2.jpg',
-    },
-    {
-        id: 43,
         title: 'Thai Chocolate Cake',
         category: 'dessert',
         price: '11',
         info: `Flour-less chocolate mascarpone crème and raspberry.`,
-        img: '/ASSETS/IMAGES/sally_2.jpg',
+        img: '/ASSETS/IMAGES/DESSERT/ThaiChocolateCake.jpg',
     },
     {
-        id: 44,
+        id: 43,
         title: 'Thai Coffee Tiramisu',
         category: 'dessert',
         price: '13',
         info: `Tiramisu made with chef's special strong brewed Thai coffee`,
-        img: '/ASSETS/IMAGES/sally_2.jpg',
+        img: '/ASSETS/IMAGES/DESSERT/ThaiCoffeeTiramisu.jpg',
     },
 ];
