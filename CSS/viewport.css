@@ -38,3 +38,8 @@
         opacity: 1;
     }
 }
+@media (min-width: 780px) {
+    .event-modal-overlay h2 {
+        opacity: 1;
+    }
+}
