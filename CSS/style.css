@@ -200,9 +200,6 @@ header {
 .open {
     height: 100vh;
 }
-/* .nav-header .open {
-    overflow: hidden;
-} */
 .nav-header a {
     display: block;
     padding: 20px;
@@ -414,7 +411,6 @@ header {
     gap: 20px;
 }
 .grid div {
-    /* background-color: var(--yellow); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -580,9 +576,6 @@ footer .createdby:hover {
         margin-bottom: 15px;
         font-size: 12px;
     }
-    /* .signupBtn {
-        mar
-    } */
 }
 /* ============ */
 /* Email Signup Modal */
