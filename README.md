@@ -2,7 +2,7 @@
 
 A website project of Valla Table, an authentic Thai restaurant in New York.
 
-## Genearal Info
+## General Info
 
 This is a training project where I designed and built a restaurant website with multiple responsive pages and functionalities.
 
@@ -18,4 +18,4 @@ This is a training project where I designed and built a restaurant website with 
 
 ## Contact
 
-Created by [@Guitaristpeet](https://github.com/Guitaristpeet) - feel free to contact me!
+Created by [@SutheeDev](https://github.com/SutheeDev) - feel free to contact me!
