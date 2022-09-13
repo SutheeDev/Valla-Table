@@ -11,6 +11,7 @@ This is a training project where I designed and built a restaurant website with 
 - HTML5
 - CSS3
 - JavaScript ES6
+- in-view.js
 
 ## Acknowledgements
 
