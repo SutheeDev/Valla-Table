@@ -529,6 +529,16 @@ footer .createdby {
 footer .createdby:hover {
   color: var(--blue);
 }
+.footer-social,
+.top-btn-container {
+  width: 25%;
+}
+.footer-social {
+  text-align: left;
+}
+.top-btn-container {
+  text-align: right;
+}
 .footer-social svg {
   transition: all 0.3s ease;
 }
@@ -564,79 +574,12 @@ footer .createdby:hover {
     margin-bottom: 15px;
     font-size: 12px;
   }
-}
-/* ============ */
-/* Email Signup Modal */
-/* ============ */
-.modal-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--white);
-  display: grid;
-  place-items: center;
-  visibility: hidden;
-  z-index: -10;
-}
-.open-modal {
-  visibility: visible;
-  z-index: 10;
-}
-.modal-overlay {
-  background-color: var(--yellow);
-  width: 60vw;
-  padding: 20px 20px 40px 20px;
-  color: var(--black);
-  position: relative;
-  border-radius: 5px;
-  box-shadow: 0 0 10px -5px #2e30309f;
-}
-.modal-overlay h2 {
-  margin-bottom: 30px;
-}
-.modal-overlay .bar {
-  margin: 0 auto 30px auto;
-}
-/* Close Signup Btn */
-.close-signup {
-  width: 35px;
-  height: 35px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  cursor: pointer;
-}
-/* Signup Form */
-.modal-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.modal-form input {
-  margin-bottom: 25px;
-  width: 40vw;
-  padding: 13px 20px;
-  outline: none;
-}
-.modal-form input::placeholder {
-  color: var(--formColor);
-}
-.modal-btn {
-  background-color: var(--black);
-  color: var(--yellow);
-  padding: 7px 20px;
-  border-radius: 2px;
-  border: solid 1px var(--black);
-  transition: all 0.3s ease;
-}
-.modal-btn:hover {
-  background-color: var(--yellow);
-  color: var(--white);
-  border-color: var(--white);
+  .footer-social,
+  .top-btn-container {
+    width: 100%;
+  }
+  .footer-social,
+  .top-btn-container {
+    text-align: center;
+  }
 }
