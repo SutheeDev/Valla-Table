@@ -17,7 +17,7 @@ Welcome to [Valla Table](https://valla-table-su-t.netlify.app/), a front-end web
   - [Footer](#footer)
 - [Design](#design)
 - [Technologies Used](#technologies-used)
-- [Feedback](#feedback)
+- [Feedback](#comments)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
   <br><br>
@@ -97,7 +97,7 @@ This project prioritizes responsive and mobile-first design for an optimal user 
 - CSS
 - JavaScript <br><br>
 
-## Feedback <a name='feedback'></a>
+## Feedback <a name='comments'></a>
 
 Feedback and comments are welcome. If you're interested in collaborating, please don't hesitate to reach out via my GitHub profile. Thanks! <br><br>
 
