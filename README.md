@@ -44,8 +44,6 @@ The website comprises five main pages: Home, Menus, About, Order Online, and Hou
 
 ### Order Online <a name='order-online'></a>
 
-![Order Online page displaying several menus with image, dish's name, price, and description](https://res.cloudinary.com/dnc7potxo/image/upload/v1696513085/ReadMe-Images/Valla-Table/Order_kncxwd.png)
-
 The Order Online page enables users to explore the menu, add or remove dishes to their cart, and review their choices. Key features and functionalities include:
 
 - Beautiful images accompanying each dish.
@@ -56,12 +54,11 @@ The Order Online page enables users to explore the menu, add or remove dishes to
 - A clear-cart button on the sidebar to remove all items from the cart. The sidebar will also be automatically hidden if this button is clicked.
 - A remove button to simply delete a particular dish from the cart and also update the total price.
 - Functionality to increment or decrease the number of items in the cart.
-
-![A cart displaying four added items and a total price](https://res.cloudinary.com/dnc7potxo/image/upload/v1696513079/ReadMe-Images/Valla-Table/Cart_b72094.png)
-
 - A cart icon located on the top right of the header showing the total number of items in the cart
 - A functionality that persists cart items using local storage, so users can still find their items in the cart after they close the browser and return.
-- While the website currently lacks a checkout functionality, it demonstrates the front-end development skills I have honed. I hope this project offers a glance into my capabilities in front-end development.
+- While the website currently lacks a checkout functionality, it demonstrates the front-end development skills I have honed. I hope this project offers a glance into my capabilities in front-end development. <br><br>
+
+![Order Online page displaying several menus with image, dish's name, price, and description](https://res.cloudinary.com/dnc7potxo/image/upload/v1696513085/ReadMe-Images/Valla-Table/Order_kncxwd.png) <br><br>
 
 ### Hours & Location <a name='hours-and-location'></a>
 
