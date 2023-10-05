@@ -2,7 +2,7 @@
 
 Welcome to [Valla Table](https://valla-table-su-t.netlify.app/), a front-end web project inspired by an authentic Thai restaurant in New York. The project is built to showcase my essential front-end and development skills as well as my design capability, through the story of Valla Table. <br><br>
 
-![Valla Table Home page with navigation bar on top and an image of multiple authentic Thai dishes on a slide](https://res.cloudinary.com/dnc7potxo/image/upload/v1696513088/ReadMe-Images/Valla-Table/Home_lzrbth.png) <br><br>
+![Valla Table Home page with navigation bar on top and an image of multiple authentic Thai dishes on a slide](https://res.cloudinary.com/dnc7potxo/image/upload/v1696514082/ReadMe-Images/Valla-Table/Home_j0ss9y.png) <br><br>
 
 ## Table of Contents
 
