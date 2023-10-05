@@ -2,6 +2,8 @@
 
 Welcome to [Valla Table](https://valla-table-su-t.netlify.app/), a front-end web project inspired by an authentic Thai restaurant in New York. The project is built to showcase my essential front-end and development skills as well as my design capability, through the story of Valla Table. <br><br>
 
+![Valla Table Home page with navigation bar on top and an image of multiple authentic Thai dishes on a slide](https://res.cloudinary.com/dnc7potxo/image/upload/v1696513088/ReadMe-Images/Valla-Table/Home_lzrbth.png) <br><br>
+
 ## Table of Contents
 
 - [Features](#features)
@@ -32,13 +34,17 @@ The website comprises five main pages: Home, Menus, About, Order Online, and Hou
 
 ### Menus <a name='menus'></a>
 
-- The Menus page is the go-to place for discovering the extensive list of dishes offered by Valla Table. To enhance user experience, the menus are categorized by food type, making it easy for visitors to find their desired dishes.
+- The Menus page is the go-to place for discovering the extensive list of dishes offered by Valla Table. To enhance user experience, the menus are categorized by food type, making it easy for visitors to find their desired dishes. <br><br>
+
+![Menus page with food type options on top and a list of dishes with price and description](https://res.cloudinary.com/dnc7potxo/image/upload/v1696513079/ReadMe-Images/Valla-Table/Menus_yepjfw.png) <br><br>
 
 ### About <a name='about'></a>
 
 - The About page is where the captivating story of Valla Table and its founder are shared with visitors.
 
 ### Order Online <a name='order-online'></a>
+
+![Order Online page displaying several menus with image, dish's name, price, and description](https://res.cloudinary.com/dnc7potxo/image/upload/v1696513085/ReadMe-Images/Valla-Table/Order_kncxwd.png)
 
 The Order Online page enables users to explore the menu, add or remove dishes to their cart, and review their choices. Key features and functionalities include:
 
@@ -50,6 +56,9 @@ The Order Online page enables users to explore the menu, add or remove dishes to
 - A clear-cart button on the sidebar to remove all items from the cart. The sidebar will also be automatically hidden if this button is clicked.
 - A remove button to simply delete a particular dish from the cart and also update the total price.
 - Functionality to increment or decrease the number of items in the cart.
+
+![A cart displaying four added items and a total price](https://res.cloudinary.com/dnc7potxo/image/upload/v1696513079/ReadMe-Images/Valla-Table/Cart_b72094.png)
+
 - A cart icon located on the top right of the header showing the total number of items in the cart
 - A functionality that persists cart items using local storage, so users can still find their items in the cart after they close the browser and return.
 - While the website currently lacks a checkout functionality, it demonstrates the front-end development skills I have honed. I hope this project offers a glance into my capabilities in front-end development.
