@@ -95,14 +95,20 @@ Several elements are available on every site page for a consistent and user-frie
 
 ### Slide <a name='slide'></a>
 
+![Image Slideshow](https://res.cloudinary.com/dnc7potxo/image/upload/v1699543064/ReadMe-Images/Valla-Table/Slide_cc88mj.png)<br>
+
 - The site features a slide showcasing various food images, except on the Order Online Page.
 - Users can navigate through images using the next and previous arrows.
 
 ### Gallery <a name='gallery'></a>
 
+![Gallery](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542520/ReadMe-Images/Valla-Table/Gallery_odag7t.png)<br>
+
 - Selected pictures are thoughtfully curated and displayed on the [Home](#home) and [About](#about) pages.
 
 ### Footer <a name='footer'></a>
+
+![Footer](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542520/ReadMe-Images/Valla-Table/Footer_e12nb9.png)<br>
 
 - The footer includes social media links, the restaurant's address, and a top button.
 - Social media links open in new tabs for a seamless user experience.
