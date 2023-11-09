@@ -91,7 +91,7 @@ Several elements are available on every site page for a consistent and user-frie
 
 ![Navbar on medium screen](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542521/ReadMe-Images/Valla-Table/Navbar_-_Mid_Screen_cljryq.png)<br>
 
-![Navbar on small screen](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542521/ReadMe-Images/Valla-Table/Navbar_-_Small_Screen_ngjbcn.png)<br>
+![Navbar on small screen](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542911/ReadMe-Images/Valla-Table/Navbar_-_Small_Screen_vhv8lb.png)<br>
 
 ### Slide <a name='slide'></a>
 
