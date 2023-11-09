@@ -1,8 +1,8 @@
 # Valla Table
 
-Welcome to [Valla Table](https://valla-table-su-t.netlify.app/), a front-end web project inspired by an authentic Thai restaurant in New York. The project is built to showcase my essential front-end and development skills as well as my design capability, through the story of Valla Table. <br><br>
+![Valla Table Home page](https://res.cloudinary.com/dnc7potxo/image/upload/v1696515281/ReadMe-Images/Valla-Table/Home_kjttku.jpg) <br>
 
-![Valla Table Home page](https://res.cloudinary.com/dnc7potxo/image/upload/v1696515281/ReadMe-Images/Valla-Table/Home_kjttku.jpg) <br><br>
+Welcome to [Valla Table](https://valla-table-su-t.netlify.app/), a front-end web project inspired by an authentic Thai restaurant in New York. The project is built to showcase my essential front-end and development skills as well as my design capability, through the story of Valla Table. <br><br>
 
 ## Table of Contents
 
@@ -34,9 +34,9 @@ The website comprises five main pages: Home, Menus, About, Order Online, and Hou
 
 ### Menus <a name='menus'></a>
 
-- The Menus page is the go-to place for discovering the extensive list of dishes offered by Valla Table. To enhance user experience, the menus are categorized by food type, making it easy for visitors to find their desired dishes. <br><br>
+![Menus page with food type options on top and a list of dishes with price and description](https://res.cloudinary.com/dnc7potxo/image/upload/v1696513079/ReadMe-Images/Valla-Table/Menus_yepjfw.png) <br>
 
-![Menus page with food type options on top and a list of dishes with price and description](https://res.cloudinary.com/dnc7potxo/image/upload/v1696513079/ReadMe-Images/Valla-Table/Menus_yepjfw.png) <br><br>
+- The Menus page is the go-to place for discovering the extensive list of dishes offered by Valla Table. To enhance user experience, the menus are categorized by food type, making it easy for visitors to find their desired dishes. <br><br>
 
 ### About <a name='about'></a>
 
@@ -44,21 +44,34 @@ The website comprises five main pages: Home, Menus, About, Order Online, and Hou
 
 ### Order Online <a name='order-online'></a>
 
+![Order Online page displaying several menus with image, dish's name, price, and description](https://res.cloudinary.com/dnc7potxo/image/upload/v1696513085/ReadMe-Images/Valla-Table/Order_kncxwd.png) <br>
+
 The Order Online page enables users to explore the menu, add or remove dishes to their cart, and review their choices. Key features and functionalities include:
 
 - Beautiful images accompanying each dish.
 - Descriptions of dishes, including ingredients and preparation details.
 - An add-to-cart container appearing on hover for a larger screen.
+
+![Add-to-cart icon](https://res.cloudinary.com/dnc7potxo/image/upload/v1699541371/ReadMe-Images/Valla-Table/Add_to_Cart_qk33cv.png)<br>
+
+- The add-to-cart content is altered to 'In Cart' if the item is already added.
+
+![In Cart](https://res.cloudinary.com/dnc7potxo/image/upload/v1699541372/ReadMe-Images/Valla-Table/In_Cart_eoyezv.png)
+
 - A sidebar that slides in from the right when the add-to-cart container is clicked, displaying the cart contents and the total price.
+
+![Sidebar](https://res.cloudinary.com/dnc7potxo/image/upload/v1699540819/ReadMe-Images/Valla-Table/Cart_wrvttt.png)<br>
+
 - A close icon on the sidebar allowing users to hide the sidebar and continue exploring the menu.
 - A clear-cart button on the sidebar to remove all items from the cart. The sidebar will also be automatically hidden if this button is clicked.
 - A remove button to simply delete a particular dish from the cart and also update the total price.
 - Functionality to increment or decrease the number of items in the cart.
 - A cart icon located on the top right of the header showing the total number of items in the cart
+
+![Cart Icon](https://res.cloudinary.com/dnc7potxo/image/upload/v1699541371/ReadMe-Images/Valla-Table/Cart_Icon_dosycb.png)<br>
+
 - A functionality that persists cart items using local storage, so users can still find their items in the cart after they close the browser and return.
 - While the website currently lacks a checkout functionality, it demonstrates the front-end development skills I have honed. I hope this project offers a glance into my capabilities in front-end development. <br><br>
-
-![Order Online page displaying several menus with image, dish's name, price, and description](https://res.cloudinary.com/dnc7potxo/image/upload/v1696513085/ReadMe-Images/Valla-Table/Order_kncxwd.png) <br><br>
 
 ### Hours & Location <a name='hours-and-location'></a>
 
@@ -70,20 +83,42 @@ Several elements are available on every site page for a consistent and user-frie
 
 ### Navbar <a name='navbar'></a>
 
+![Navbar on big screen](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542520/ReadMe-Images/Valla-Table/Navbar_-_Big_Screen_wemeka.png)<br>
+
 - The navbar includes the restaurant logo and navigation links to other pages.
 - The restaurant logo serves as a link back to the Home page.
 - The navbar is fixed at the top of the page for easy access while scrolling.
+- It is fully responsive for any size of screen.
+  <br>
+
+![Navbar on medium screen](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542521/ReadMe-Images/Valla-Table/Navbar_-_Mid_Screen_cljryq.png)
+
+###### Navbar on medioum screen
+
+<br>
+
+![Navbar on small screen](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542911/ReadMe-Images/Valla-Table/Navbar_-_Small_Screen_vhv8lb.png)
+
+###### Navbar on small screen
+
+<br>
 
 ### Slide <a name='slide'></a>
+
+![Image Slideshow](https://res.cloudinary.com/dnc7potxo/image/upload/v1699543064/ReadMe-Images/Valla-Table/Slide_cc88mj.png)<br>
 
 - The site features a slide showcasing various food images, except on the Order Online Page.
 - Users can navigate through images using the next and previous arrows.
 
 ### Gallery <a name='gallery'></a>
 
+![Gallery](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542520/ReadMe-Images/Valla-Table/Gallery_odag7t.png)<br>
+
 - Selected pictures are thoughtfully curated and displayed on the [Home](#home) and [About](#about) pages.
 
 ### Footer <a name='footer'></a>
+
+![Footer](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542520/ReadMe-Images/Valla-Table/Footer_e12nb9.png)<br>
 
 - The footer includes social media links, the restaurant's address, and a top button.
 - Social media links open in new tabs for a seamless user experience.
