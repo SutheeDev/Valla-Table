@@ -92,7 +92,7 @@ Several elements are available on every site page for a consistent and user-frie
   <br>
 
 ![Navbar on medium screen](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542521/ReadMe-Images/Valla-Table/Navbar_-_Mid_Screen_cljryq.png)
-<span style="font-size: smaller;">Navbar on medioum screen</span>
+<span style="font-size: 10px;">Navbar on medioum screen</span>
 <br><br>
 
 ![Navbar on small screen](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542911/ReadMe-Images/Valla-Table/Navbar_-_Small_Screen_vhv8lb.png)
