@@ -92,11 +92,15 @@ Several elements are available on every site page for a consistent and user-frie
   <br>
 
 ![Navbar on medium screen](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542521/ReadMe-Images/Valla-Table/Navbar_-_Mid_Screen_cljryq.png)
-_Navbar on medioum screen_
+
+###### Navbar on medioum screen
+
 <br><br>
 
 ![Navbar on small screen](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542911/ReadMe-Images/Valla-Table/Navbar_-_Small_Screen_vhv8lb.png)
-_Navbar on small screen_
+
+###### Navbar on small screen
+
 <br><br>
 
 ### Slide <a name='slide'></a>
