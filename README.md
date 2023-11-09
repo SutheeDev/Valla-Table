@@ -83,9 +83,15 @@ Several elements are available on every site page for a consistent and user-frie
 
 ### Navbar <a name='navbar'></a>
 
+![Navbar on big screen](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542520/ReadMe-Images/Valla-Table/Navbar_-_Big_Screen_wemeka.png)<br>
+
 - The navbar includes the restaurant logo and navigation links to other pages.
 - The restaurant logo serves as a link back to the Home page.
 - The navbar is fixed at the top of the page for easy access while scrolling.
+
+![Navbar on medium screen](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542521/ReadMe-Images/Valla-Table/Navbar_-_Mid_Screen_cljryq.png)<br>
+
+![Navbar on small screen](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542521/ReadMe-Images/Valla-Table/Navbar_-_Small_Screen_ngjbcn.png)<br>
 
 ### Slide <a name='slide'></a>
 
