@@ -95,13 +95,13 @@ Several elements are available on every site page for a consistent and user-frie
 
 ###### Navbar on medioum screen
 
-<br><br>
+<br>
 
 ![Navbar on small screen](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542911/ReadMe-Images/Valla-Table/Navbar_-_Small_Screen_vhv8lb.png)
 
 ###### Navbar on small screen
 
-<br><br>
+<br>
 
 ### Slide <a name='slide'></a>
 
