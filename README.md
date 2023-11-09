@@ -88,6 +88,7 @@ Several elements are available on every site page for a consistent and user-frie
 - The navbar includes the restaurant logo and navigation links to other pages.
 - The restaurant logo serves as a link back to the Home page.
 - The navbar is fixed at the top of the page for easy access while scrolling.
+- It is fully responsive for any size of screen.
 
 ![Navbar on medium screen](https://res.cloudinary.com/dnc7potxo/image/upload/v1699542521/ReadMe-Images/Valla-Table/Navbar_-_Mid_Screen_cljryq.png)<br>
 
